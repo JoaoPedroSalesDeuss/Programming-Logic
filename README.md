@@ -7,7 +7,7 @@ Bem-vindo ao meu repositório de exercícios em C! Este é um espaço onde armaz
 
 ## Estrutura do Repositório
 
-- [`conceitos`](./conceitos): Esta pasta contém arquivos explicando conceitos importantes da linguagem C.
+- [`OBI`](./OBI): Esta pasta contém arquivos da OBI.
 - [`exercicios`](./exercicios): Aqui você encontrará os exercícios resolvidos, organizados por tópicos.
 
 ## Tópicos Abordados
