@@ -1,22 +1,25 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int fatorial(int n)
+void fibonacci(int n)
 {
-    int fatorial = 1;
-    int i;
-
-    for(i = 1; i <= n; i++){
-        fatorial *= i;
+    if(n < 0)
+    {
+        return;
     }
-    return fatorial;
-}
+    
+    int atual = 1;
+    int proximo;
+    int anterior = 0;
 
-//1 x 1 = 1
-//1 x 2 = 2
-//2 x 3 = 6
-//6 x 4 = 24
-//24 x 5 = 120
+    for(i = 0; i < n; i++){
+        printf("%d ", atual);
+        proximo = atual + anterior;
+        atual = proximo;
+        anteior = atual;
+    }
+    printf("\n");
+}
 
 int main(void)
 {
@@ -25,9 +28,7 @@ int main(void)
     printf("Digite uma quantidade: ");
     scanf("%d", &n);
 
-    int resultado = fatorial(n);
-
-    printf("O resultado do fatorial eh: %d", resultado);
+    fibonacci(n);
 
     return 0;
 }
